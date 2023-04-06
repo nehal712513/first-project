@@ -1,0 +1,170 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+body{
+    font-family: "Montserrat";
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* navigation bar */
+
+.navbar{
+    padding:0 0 4.5rem;
+    margin: 2rem;
+   
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+.nav-item{
+    padding: 0 20px;
+    color: #fff;
+}
+.nav-link{
+    font-size: 1.2rem;
+    color: #fff;
+    
+}
+#navbarSupportedContent{
+    padding-left: 400px;
+}
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
+p{
+    color: #8f8f8f;
+}
+/* download-button */
+
+.download-button{
+    margin-top: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    
+}
+
+/* features */
+
+#features{
+    padding: 7% 15%;
+   
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* 
+ Testimonials */
+
+ #testimonials{
+   
+    text-align: center;
+    background-color:#ef8172 ;
+ }
+ .testimonial-img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+ }
+
+ #press{
+    background-color:#ef8172 ;
+    text-align: center;
+    padding-bottom: 4%;
+ }
+ .press-logo{
+    width: 10%;
+    margin: 20px 20px 50px;
+ }
+ .carousel-item{
+    padding: 4% 18%;
+
+ }
+
+ /* pricing */
+
+ #pricing{
+    padding: 100px;
+    text-align: center;
+ }
+ .col{
+    padding: 3% 2%;
+ }
+
+
+ @media (max-width:1028px){
+    .title-img{
+        transform: rotate(0);
+    }
+    #title{
+        text-align:center;
+    }
+ }
+
+ /* <!-- Call to Action-->*/
+
+ #Action{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 10;
+   
+    padding: 100px 100px;
+    background-color: #ff4c68;
+    color: #fff;
+ }
+ .action-h1{
+    padding-left: 200px;
+    padding-right: 200px;
+    line-height: 1.5;
+ }
+ .download-button1{
+   margin-right: 20px;
+}
+
+
+/* <!-- Footer --> */
+
+
+#footer{
+    margin: 100px;
+    text-align: center;
+    line-height: 2;
+    
+}
+i{
+    margin-right: 20px;
+   
+}
+ 
